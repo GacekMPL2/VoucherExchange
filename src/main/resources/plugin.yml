@@ -1,0 +1,11 @@
+name: VoucherExchange
+version: 1.0
+main: pl.pijok.voucherexchange.VoucherExchange
+api-version: 1.19
+authors: [ Pijok, GacekMPL2 ]
+depend:
+  - Vault
+commands:
+  voucher:
+    usage: /voucher
+    aliases: [vouchers]
